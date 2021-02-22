@@ -2,10 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import { Landing } from './Components/HomePage/Landing';
 
+
 function App() {
   return (
     <div className="App">
-      {/* <Landing/> */}
+      <Landing/>
     </div>
   );
 }

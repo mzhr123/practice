@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {configureStore} from "./State/Store/configureStore"
-import {Provider} from "react-redux"
+import {configureStore} from './State/Store/configureStore'
+import {Provider} from "react-redux";
 
 
-const store=configureStore()
+
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={configureStore()}>
     <App />
     </Provider>
   </React.StrictMode>,

@@ -4,7 +4,7 @@ import { ReduxParent } from "../FetchingFromRedux/ReduxParent";
 export const Landing =()=>{
     return(
         <div>
-            <ReduxParent/>
+           <ReduxParent/> 
         </div>
     )
 }

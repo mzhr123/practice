@@ -4,13 +4,13 @@ const groupsDefaultState = {
     {
       id:uuidv4(),
       name: "Redux Practical",
-      image: "Assets/Rose.jpg",
+      image: "logo512.png",
       desc: "This Is First Group Created With Redux",
     },
     {
       id:uuidv4(),
       name: "Learning Redux",
-      image: "Assets/Rose.jpg",
+      image: "logo512.png",
       desc: "This Is First Group Created With Redux",
     },
     {

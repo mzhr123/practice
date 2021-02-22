@@ -1,10 +1,11 @@
 import React from "react";
 
-export const ReduxChild =()=>{
+export const ReduxChild =({currentitem})=>{
     return(
         <div>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro id inventore ea eius ullam corporis perferendis doloribus omnis aut deserunt? Autem soluta quod sapiente expedita voluptatum, ullam quasi cum deleniti.</h1>
+            <h1>{currentitem.name}</h1>
+            <h1>{currentitem.desc}</h1>
+            <img src={currentitem.image} style={{width:"200",height:"200",border:"2px solid black"}}/>
         </div>
     );
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum laudantium recusandae culpa. A nobis perferendis facere, sed dolore atque animi natus sapiente deleniti impedit cum ab quo veritatis necessitatibus repellendus.</p>
 };
