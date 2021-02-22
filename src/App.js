@@ -5,7 +5,7 @@ import { Landing } from './Components/HomePage/Landing';
 function App() {
   return (
     <div className="App">
-      <Landing/>
+      {/* <Landing/> */}
     </div>
   );
 }

@@ -1,1 +1,2 @@
-export const getAllGroup =(State)=> state.GroupReducer.Group;
+export const getAllGroups = (state) => state.groupReducer.groups;
+// console.log("Checking setall grp", getAllGroups);
