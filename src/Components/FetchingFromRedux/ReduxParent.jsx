@@ -8,6 +8,7 @@ export const ReduxParent =()=>{
     const [groupData,setGroupData]=useState(selector);
     return(
         <div>
+            <input type="text"/> <button>add group</button><br/>
             {groupData&&groupData.map((item)=>{
                 return <ReduxChild currentitem={item}/>
             })}
