@@ -6,7 +6,7 @@ export const Landing =()=>{
     return(
         <div>
            {/* <ReduxParent/>  */}
-           <DeleteParent/>
+           {/* <DeleteParent/> */}
         </div>
     )
 }
